@@ -1,0 +1,2 @@
+#What is JSON
+JSON is javascript object notation. It is a format to store and exchange javascript objects in a readable way. It can be used in HTTP requests and responses to transfer information in a simple format.
