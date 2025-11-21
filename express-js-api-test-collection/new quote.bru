@@ -1,0 +1,24 @@
+meta {
+  name: new quote
+  type: http
+  seq: 1
+}
+
+post {
+  url: http:/localhost:3000/quotebook/quote/new
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "category": "happinessQuotes",
+    "quote": "Find happiness even in the smallest things in life",
+    "author": "Shreya"
+  }
+  
+}

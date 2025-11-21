@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Express js API test collection",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
